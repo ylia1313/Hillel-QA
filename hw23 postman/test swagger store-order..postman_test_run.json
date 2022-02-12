@@ -1,0 +1,289 @@
+{
+	"id": "bda1b548-14f8-4f3b-bc0c-e9d2397e7f24",
+	"name": "test swagger store/order.",
+	"timestamp": "2022-02-12T23:37:06.980Z",
+	"collection_id": "19539045-e6a217e0-8d6f-432f-b35b-dda0e826f125",
+	"folder_id": 0,
+	"environment_id": "9858886d-d34c-467a-9985-265bf8b4f077",
+	"totalPass": 10,
+	"totalFail": 6,
+	"results": [
+		{
+			"id": "26ab47da-aa35-4748-8f4e-3a448412149f",
+			"name": "positiv test",
+			"url": "https://petstore.swagger.io/v2/store/order",
+			"time": 127,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful POST request": true,
+				"Response time is less than 200ms": true,
+				"Test for data Model": true
+			},
+			"testPassFailCounts": {
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Test for data Model": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				127
+			],
+			"allTests": [
+				{
+					"Successful POST request": true,
+					"Response time is less than 200ms": true,
+					"Test for data Model": true
+				}
+			]
+		},
+		{
+			"id": "55a1ca50-7359-416b-bfa0-ee69857de16f",
+			"name": "negative test (-1)",
+			"url": "https://petstore.swagger.io/v2/store/order",
+			"time": 128,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful POST request": true,
+				"Test for data Model": false
+			},
+			"testPassFailCounts": {
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Test for data Model": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				128
+			],
+			"allTests": [
+				{
+					"Successful POST request": true,
+					"Test for data Model": false
+				}
+			]
+		},
+		{
+			"id": "ddef9440-bc31-4038-bf2f-81b713a6642b",
+			"name": "negative test (null)",
+			"url": "https://petstore.swagger.io/v2/store/order",
+			"time": 128,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful POST request": true,
+				"Test for data Model": false
+			},
+			"testPassFailCounts": {
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Test for data Model": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				128
+			],
+			"allTests": [
+				{
+					"Successful POST request": true,
+					"Test for data Model": false
+				}
+			]
+		},
+		{
+			"id": "f2991e14-39b9-46c6-98cc-e89011dfb14d",
+			"name": "negative test float",
+			"url": "https://petstore.swagger.io/v2/store/order",
+			"time": 128,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful POST request": true,
+				"Test for data Model": false
+			},
+			"testPassFailCounts": {
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Test for data Model": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				128
+			],
+			"allTests": [
+				{
+					"Successful POST request": true,
+					"Test for data Model": false
+				}
+			]
+		},
+		{
+			"id": "7e00c02e-febf-4506-aa5c-857afaa76cbd",
+			"name": "negative test string",
+			"url": "https://petstore.swagger.io/v2/store/order",
+			"time": 127,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful POST request": true,
+				"Test for data Model": false
+			},
+			"testPassFailCounts": {
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Test for data Model": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				127
+			],
+			"allTests": [
+				{
+					"Successful POST request": true,
+					"Test for data Model": false
+				}
+			]
+		},
+		{
+			"id": "f1edcc70-f6ed-482e-b445-7c7f277f6a2c",
+			"name": "negative test string status",
+			"url": "https://petstore.swagger.io/v2/store/order",
+			"time": 127,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful POST request": true,
+				"Test for data Model": false
+			},
+			"testPassFailCounts": {
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Test for data Model": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				127
+			],
+			"allTests": [
+				{
+					"Successful POST request": true,
+					"Test for data Model": false
+				}
+			]
+		},
+		{
+			"id": "7b9d235e-5268-46de-9e58-f1b18a8fd210",
+			"name": "negative test status code 500",
+			"url": "https://petstore.swagger.io/v2/store/order",
+			"time": 128,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful POST request": false,
+				"Response time is less than 200ms": true,
+				"Test for data Model": true
+			},
+			"testPassFailCounts": {
+				"Successful POST request": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Test for data Model": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				128
+			],
+			"allTests": [
+				{
+					"Successful POST request": false,
+					"Response time is less than 200ms": true,
+					"Test for data Model": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 893,
+	"collection": {
+		"requests": [
+			{
+				"id": "26ab47da-aa35-4748-8f4e-3a448412149f",
+				"method": "POST"
+			},
+			{
+				"id": "55a1ca50-7359-416b-bfa0-ee69857de16f",
+				"method": "POST"
+			},
+			{
+				"id": "ddef9440-bc31-4038-bf2f-81b713a6642b",
+				"method": "POST"
+			},
+			{
+				"id": "f2991e14-39b9-46c6-98cc-e89011dfb14d",
+				"method": "POST"
+			},
+			{
+				"id": "7e00c02e-febf-4506-aa5c-857afaa76cbd",
+				"method": "POST"
+			},
+			{
+				"id": "f1edcc70-f6ed-482e-b445-7c7f277f6a2c",
+				"method": "POST"
+			},
+			{
+				"id": "7b9d235e-5268-46de-9e58-f1b18a8fd210",
+				"method": "POST"
+			}
+		]
+	}
+}
